@@ -1,0 +1,104 @@
+Project Demonstration Phase
+
+ComicCraft-AI – Comic Story Creator Using Gemini Models
+
+The Project Demonstration Phase is the stage where the completed ComicCraft-AI system is presented and demonstrated to users, teachers, or project evaluators. The main purpose is to show the working features of the application and explain how Gemini models are used to create comic stories.
+
+1. Introduction
+
+The project demonstration begins with a brief introduction to ComicCraft-AI. It is an AI-powered comic story creation application that uses Gemini models to transform a user's simple idea into a complete comic story.
+
+2. Demonstration Steps
+
+Step 1 – Open the Application
+Launch the ComicCraft-AI application and display the home page.
+
+Step 2 – Create a New Comic
+Select "Create New Comic" and enter the required details.
+
+Step 3 – Enter Story Idea
+Enter a simple prompt, for example:
+
+> "Create a superhero comic about a college student who discovers a magical power."
+
+
+
+Step 4 – Select Preferences
+Select:
+
+Genre
+
+Number of characters
+
+Story length
+
+Number of comic panels
+
+Story setting
+
+
+Step 5 – Generate Story
+Click the Generate button. The application sends the user's request to the Gemini model.
+
+Step 6 – Display AI Output
+Gemini generates:
+
+Comic title
+
+Story
+
+Characters
+
+Scenes
+
+Dialogues
+
+Captions
+
+Panel descriptions
+
+
+Step 7 – Preview Comic
+The generated content is displayed panel by panel in the comic preview section.
+
+Step 8 – Edit and Regenerate
+The user can edit the generated story or request Gemini to regenerate a particular scene or dialogue.
+
+Step 9 – Save the Comic
+The completed comic project can be saved for future editing.
+
+Step 10 – Export the Final Comic
+The final comic can be exported or presented as the project output.
+
+3. Main Features Demonstrated
+
+Feature	Demonstration
+
+Story Generation	Generate a story from a simple prompt
+Character Creation	Create detailed characters
+Scene Generation	Generate different comic scenes
+Dialogue Generation	Generate character conversations
+Panel Creation	Divide the story into comic panels
+AI Regeneration	Regenerate unsatisfactory content
+Editing	Modify generated content
+Save	Store the completed project
+Export	Produce the final comic
+
+
+4. Gemini Model Demonstration
+
+The demonstration explains the role of Gemini in the system:
+
+User Prompt → Backend → Gemini Model → Generated Content → ComicCraft-AI Interface
+
+For example, when the user enters a superhero story idea, Gemini processes the prompt and generates a structured story containing characters, scenes, dialogues, and captions.
+
+5. Expected Demonstration Output
+
+At the end of the demonstration, the evaluator should be able to see a complete comic story consisting of:
+
+Title → Characters → Story → Scenes → Dialogues → Comic Panels → Final Preview
+
+6. Conclusion
+
+The demonstration phase proves that ComicCraft-AI – Comic Story Creator Using Gemini Models can successfully convert user ideas into creative and structured comic stories. It highlights the system's AI capabilities, user-friendly interface, editing features, and overall functionality.
