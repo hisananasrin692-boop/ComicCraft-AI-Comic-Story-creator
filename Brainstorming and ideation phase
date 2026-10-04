@@ -1,0 +1,98 @@
+Comic Craft AI – Comic Story Creator Using Gemini Models
+
+Brainstorming and Ideation Phase
+
+1. Project Idea
+Comic Craft AI is an AI-powered comic story creator that uses Google Gemini models to help users create original comic stories from simple ideas or prompts. It can generate characters, dialogues, scenes, storylines, and comic panels.
+
+2. Problem Identification
+
+Creating a complete comic story manually takes a lot of time.
+
+Beginners may find it difficult to develop characters and dialogues.
+
+Writers may struggle with generating creative story ideas.
+
+Creating a consistent storyline and multiple scenes can be challenging.
+
+
+3. Proposed Solution
+Develop a user-friendly application where users enter a simple idea such as “A student discovers a magical book”. Gemini then helps transform the idea into a structured comic containing:
+
+Story title
+
+Characters
+
+Plot
+
+Scenes
+
+Dialogues
+
+Narration
+
+Panel descriptions
+
+Comic ending
+
+
+4. Target Users
+
+Students
+
+Comic writers
+
+Artists
+
+Content creators
+
+Beginners interested in storytelling
+
+Teachers and educators
+
+
+5. Main Features
+
+1. Idea Generator – Generates story concepts from a short prompt.
+
+
+2. Character Creator – Creates character names, personalities, roles and descriptions.
+
+
+3. Story Generator – Develops beginning, middle and ending.
+
+
+4. Dialogue Generator – Creates dialogues suitable for each character.
+
+
+5. Scene Generator – Converts the story into individual comic scenes.
+
+
+6. Panel Planner – Organizes scenes into comic panels.
+
+
+7. Genre Selection – Comedy, horror, fantasy, romance, adventure, sci-fi, etc.
+
+
+8. Story Editing – Allows users to modify generated content.
+
+
+9. AI Assistance – Uses Gemini to improve or expand the user's ideas.
+
+
+
+6. Example Brainstorming Prompt
+
+> “Create a short fantasy comic about a college student who finds a magical watch that can stop time.”
+
+
+
+Gemini can develop this into:
+
+Title: The Time Watch
+Main Character: Anu – a curious college student
+Conflict: The watch can stop time, but every use creates an unexpected consequence.
+Ending: Anu learns that some moments should not be changed.
+
+7. Expected Outcome
+The final system will allow users to turn a simple idea into a creative, structured and editable comic story with the help of Gemini AI, making comic creation easier and faster for beginners.
