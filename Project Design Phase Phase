@@ -1,0 +1,255 @@
+Project Design Phase
+
+ComicCraft-AI – Comic Story Creator Using Gemini Models
+
+The Project Design Phase defines how the ComicCraft-AI system will be structured, how users interact with it, and how Gemini models are integrated to generate comic stories.
+
+1. System Architecture Design
+
+ComicCraft-AI follows a simple AI-based architecture:
+
+User → Web Interface → Backend → Gemini AI Model → Story/Comic Generation → Output
+
+User Interface: Allows users to enter story ideas, characters, genre, and preferred style.
+
+Backend: Processes user input and manages communication with the Gemini API.
+
+Gemini Model: Generates the story, characters, dialogues, scenes, and comic descriptions.
+
+Database: Stores user projects, generated stories, characters, and comic panels.
+
+Output Module: Displays the completed comic story in an organized panel-by-panel format.
+
+
+2. User Interface Design
+
+The application can contain the following screens:
+
+1. Home Page
+
+Project title
+
+Create New Comic button
+
+View Previous Comics
+
+
+
+2. Story Input Page
+
+Story idea
+
+Genre selection
+
+Number of characters
+
+Character details
+
+Setting/location
+
+Story length
+
+
+
+3. AI Generation Page
+
+Generate Story
+
+Generate Characters
+
+Generate Dialogues
+
+Generate Comic Panels
+
+
+
+4. Comic Preview Page
+
+Panel-by-panel story
+
+Character names
+
+Scene descriptions
+
+Dialogues
+
+Captions
+
+
+
+5. Save/Export Page
+
+Save project
+
+Edit comic
+
+Download/export comic
+
+
+
+
+3. Functional Design
+
+The major functions of ComicCraft-AI are:
+
+Function	Description
+
+Story Generation	Creates a complete story from the user's idea
+Character Creation	Generates character names, personalities and descriptions
+Scene Generation	Divides the story into different comic scenes
+Dialogue Generation	Creates suitable dialogues for characters
+Panel Generation	Organizes scenes into comic panels
+Story Editing	Allows users to modify generated content
+Save Project	Stores comic projects for future use
+Export	Provides the final comic in a usable format
+
+
+4. Gemini AI Integration
+
+Gemini models are used as the main AI component. The user's prompt is converted into a structured request and sent to the Gemini model.
+
+Example:
+
+> User Input: "Create a superhero story about a college student who discovers a mysterious power."
+
+
+
+The Gemini model can generate:
+
+Title
+
+Story summary
+
+Characters
+
+Character personalities
+
+Scenes
+
+Dialogues
+
+Narration
+
+Comic panel descriptions
+
+
+5. Data Design
+
+The system can maintain the following basic data:
+
+User
+
+User ID
+
+Name
+
+Email
+
+
+Comic Project
+
+Project ID
+
+User ID
+
+Comic title
+
+Genre
+
+Story
+
+Creation date
+
+
+Character
+
+Character ID
+
+Project ID
+
+Character name
+
+Age
+
+Personality
+
+Appearance
+
+
+Comic Panel
+
+Panel ID
+
+Project ID
+
+Scene description
+
+Dialogue
+
+Caption
+
+Image prompt
+
+
+6. Process Flow
+
+Start
+  ↓
+User creates a new comic
+  ↓
+Enter story idea and preferences
+  ↓
+Validate user input
+  ↓
+Send prompt to Gemini
+  ↓
+Generate story
+  ↓
+Generate characters and scenes
+  ↓
+Generate dialogues
+  ↓
+Divide story into comic panels
+  ↓
+Display comic preview
+  ↓
+User edits/approves comic
+  ↓
+Save / Export
+  ↓
+End
+
+7. Design Goals
+
+The design of ComicCraft-AI focuses on:
+
+Simple and user-friendly interface
+
+Fast AI-based story generation
+
+Creative and customizable comic stories
+
+Consistent characters and scenes
+
+Easy editing and regeneration
+
+Secure storage of user projects
+
+Easy export and sharing
+
+
+8. Proposed Technology Stack
+
+Component	Technology
+
+Frontend	HTML, CSS, JavaScript / React
+Backend	Python / Node.js
+AI Model	Google Gemini Models
+Database	Firebase / MongoDB / MySQL
+API	Gemini API
+Hosting	Firebase / Vercel / Cloud platform
+
+
+9. Overall Design
+
+ComicCraft-AI is designed as an AI-powered comic creation platform where users provide a simple idea and the system transforms it into a structured comic story. Gemini models handle the creative generation, while the application manages user input, project data, editing, preview, and export.
