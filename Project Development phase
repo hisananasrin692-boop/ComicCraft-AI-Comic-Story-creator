@@ -1,0 +1,179 @@
+Project Development Phase
+
+ComicCraft-AI – Comic Story Creator Using Gemini Models
+
+The Project Development Phase is the stage where the planned design of ComicCraft-AI is converted into a working application. During this phase, the frontend, backend, database, and Gemini AI integration are developed and connected.
+
+1. Frontend Development
+
+The user interface is developed to make comic creation simple and interactive.
+
+Main screens include:
+
+Home Page – Introduction and project creation options.
+
+Story Input Page – User enters story idea, genre, characters, and setting.
+
+Generation Page – Displays AI generation progress.
+
+Comic Preview Page – Shows the generated story as comic panels.
+
+Edit Page – Allows users to modify stories and dialogues.
+
+Save/Export Page – Allows users to save or export their comic.
+
+
+2. Backend Development
+
+The backend manages communication between the user interface, database, and Gemini models.
+
+Main functions:
+
+Receive user inputs.
+
+Validate the entered information.
+
+Create prompts for Gemini.
+
+Send requests to the Gemini API.
+
+Receive and process AI-generated responses.
+
+Store comic projects.
+
+Send generated content back to the frontend.
+
+
+3. Gemini AI Integration
+
+Gemini models are integrated as the main AI component of ComicCraft-AI.
+
+The system sends structured prompts such as:
+
+> "Create a 6-panel superhero comic story. Include a title, characters, scene descriptions, dialogues, and captions."
+
+
+
+Gemini generates the required content, which is then processed and displayed by the application.
+
+4. Story Generation Module
+
+The story generation module converts a user's basic idea into a complete comic story.
+
+It generates:
+
+Comic title
+
+Story summary
+
+Beginning, middle, and ending
+
+Characters
+
+Scenes
+
+Dialogues
+
+Captions
+
+Panel descriptions
+
+
+5. Character Generation Module
+
+This module creates detailed character information, including:
+
+Character name
+
+Age
+
+Personality
+
+Appearance
+
+Role in the story
+
+Character relationships
+
+
+This information helps maintain consistency throughout the comic.
+
+6. Comic Panel Generation
+
+The generated story is divided into individual panels.
+
+Each panel contains:
+
+Component	Description
+
+Panel Number	Identifies the panel
+Scene	Describes what happens
+Character	Characters appearing in the scene
+Dialogue	Character speech
+Caption	Narration or additional information
+Image Prompt	Description for creating the visual
+
+
+7. Database Development
+
+A database is used to store:
+
+User information
+
+Comic projects
+
+Story content
+
+Character details
+
+Comic panels
+
+Generated prompts
+
+Saved versions
+
+
+This allows users to access and edit their comics later.
+
+8. Testing During Development
+
+Each module is tested individually and then tested together.
+
+Testing includes:
+
+Unit Testing – Tests individual functions.
+
+Integration Testing – Tests frontend, backend, database, and Gemini integration.
+
+UI Testing – Checks buttons, forms, navigation, and display.
+
+AI Output Testing – Checks whether generated stories are relevant and consistent.
+
+Error Testing – Checks API failures, invalid inputs, and network problems.
+
+
+9. Development Workflow
+
+User Input
+    ↓
+Frontend Interface
+    ↓
+Backend Server
+    ↓
+Prompt Creation
+    ↓
+Gemini AI Model
+    ↓
+AI Generated Story
+    ↓
+Story Processing
+    ↓
+Comic Panel Creation
+    ↓
+Comic Preview
+    ↓
+Edit / Save / Export
+
+10. Expected Result
+
+After completing the development phase, ComicCraft-AI will function as an AI-powered comic story creator. Users will be able to enter a simple idea and generate a structured comic containing stories, characters, scenes, dialogues, captions, and panels using Gemini models.
